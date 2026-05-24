@@ -64,11 +64,11 @@
 <h2>📈 GitHub Stats</h2>
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=diegobrando3&show_icons=true&theme=tokyonight" />
 </p>
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=tokyonight" />
 </p>
 
 ---
