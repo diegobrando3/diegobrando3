@@ -53,9 +53,10 @@
 <p>A Python terminal utility that displays live system information.</p>
 
 <ul>
-
+  <li>CPU / RAM monitoring</li>
+  <li>System logs</li>
   <li>JSON logging</li>
-  <li>CLI</li>
+  <li>CLI dashboard</li>
 </ul>
 
 ---
@@ -87,7 +88,7 @@
 
 <p>
   GitHub: <b>@diegobrando3</b>
-  Email: <b>enes80330@gmail.com</b>
+  E-mail: <b>enes80330@gmail.com</b>
 </p>
 
 ---
