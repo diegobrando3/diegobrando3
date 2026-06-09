@@ -1,101 +1,56 @@
 <h1 align="center">Hi, I'm Enes 👋</h1>
 
 <p align="center">
-  💻 Python Learner • 🐧 Linux User • 🚀 Future Developer
+  <em>💻 Python Developer | 🐧 Linux Enthusiast | 🚀 Aspiring Software Engineer</em>
+</p>
+
+<p align="center">
+  <a href="mailto:enes80330@gmail.com"><img src="https://img.shields.io/badge/Email-enes80330@gmail.com-blue?style=flat-square&logo=gmail"></a>
+  <a href="https://github.com/diegobrando3"><img src="https://img.shields.io/badge/GitHub-@diegobrando3-black?style=flat-square&logo=github"></a>
 </p>
 
 ---
 
-<h2>🚀 About Me</h2>
+## 🚀 About Me
+Merhaba! Yazılım dünyasında sürekli gelişime odaklanan, Python ile CLI araçları geliştirmeyi seven ve Linux sistemlerin gücüne inanan bir geliştiriciyim. Öğrenme sürecimi sadece teoride bırakmayıp, bunları gerçek projelerle pratiğe döküyorum.
 
-<ul>
-  <li>💻 Interested in software and technology</li>
-  <li>🐍 Learning Python and building CLI projects</li>
-  <li>🐧 Linux enjoyer</li>
-  <li>🎮 Into story-driven games and tech stuff</li>
-  <li>📚 Improving programming skills step by step</li>
-</ul>
+### 🎯 Şu Anki Odak Noktam
+* **TypeScript Öğreniyorum:** Daha ölçeklenebilir ve tip güvenli uygulamalar geliştirmek için **TypeScript** dünyasına adım attım. Yakında projelerimi TypeScript ile güçlendirmeye başlayacağım! 📈
 
 ---
 
-<h2>🛠️ Tech Stack</h2>
+## 🛠️ Tech Stack
 
-<h3>Languages</h3>
-
+### Languages
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" />
 </p>
 
-<h3>Tools & Platforms</h3>
-
+### Tools & Platforms
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" />
 </p>
 
 ---
 
-<h2>📌 Featured Projects</h2>
+## 📌 Featured Projects
 
-<h3>📋 CLI Todo Manager</h3>
-<p>A terminal-based todo application with JSON save system.</p>
-
-<ul>
-  <li>Add / remove tasks</li>
-  <li>Mark tasks as completed</li>
-  <li>JSON storage system</li>
-  <li>Terminal menu interface</li>
-</ul>
-
-<h3>🖥️ System Info Dashboard</h3>
-<p>A Python terminal utility that displays live system information.</p>
-
-<ul>
-  <li>CPU / RAM monitoring</li>
-  <li>System logs</li>
-  <li>JSON logging</li>
-  <li>CLI dashboard</li>
-</ul>
+* **[CLI Todo Manager](https://github.com/diegobrando3/repo-link-buraya)**: Terminal tabanlı, JSON veri depolama sistemine sahip iş takip uygulaması.
+* **[System Info Dashboard](https://github.com/diegobrando3/repo-link-buraya)**: Sistem kaynaklarını (CPU/RAM) gerçek zamanlı izleyen Python yardımcı aracı.
 
 ---
 
-<h2>📈 GitHub Stats</h2>
-
-<p>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=diegobrando3&show_icons=true&theme=tokyonight" />
-</p>
-
-<p>
+## 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=diegobrando3&show_icons=true&theme=tokyonight&count_private=true" />
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=tokyonight" />
 </p>
 
 ---
 
-<h2>🎯 Goals</h2>
-
-<ul>
-  <li>Learn advanced Python</li>
-  <li>Build bigger open-source projects</li>
-  <li>Improve Git/GitHub workflow</li>
-  <li>Learn backend development</li>
-</ul>
-
----
-
-<h2>📫 Contact</h2>
-
-<p>
-  GitHub: <b>@diegobrando3</b>
-  E-mail: <b>enes80330@gmail.com</b>
+<p align="center">
+  <code>while True: learn(); build(); repeat();</code>
 </p>
-
----
-
-<pre>
-while True:
-    learn()
-    build()
-    repeat()
-</pre>
