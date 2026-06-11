@@ -40,8 +40,8 @@ Merhaba! Yazılım dünyasında sürekli gelişime odaklanan, Python ile CLI ara
 
 ## 📌 Featured Projects
 
-* **[CLI Todo Manager](https://github.com/diegobrando3/repo-link-buraya)**: Terminal tabanlı, JSON veri depolama sistemine sahip iş takip uygulaması.
-* **[System Info Dashboard](https://github.com/diegobrando3/repo-link-buraya)**: Sistem kaynaklarını (CPU/RAM) gerçek zamanlı izleyen Python yardımcı aracı.
+* **[CLI Todo Manager](https://github.com/diegobrando3/todo)**: Terminal tabanlı, JSON veri depolama sistemine sahip iş takip uygulaması.
+* **[System Info Dashboard](https://github.com/diegobrando3/dashboard)**: Sistem kaynaklarını (CPU/RAM) gerçek zamanlı izleyen Python yardımcı aracı.
 
 ---
 
