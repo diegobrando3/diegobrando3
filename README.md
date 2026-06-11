@@ -7,6 +7,8 @@
 <p align="center">
   <a href="mailto:enes80330@gmail.com"><img src="https://img.shields.io/badge/Email-enes80330@gmail.com-blue?style=flat-square&logo=gmail"></a>
   <a href="https://github.com/diegobrando3"><img src="https://img.shields.io/badge/GitHub-@diegobrando3-black?style=flat-square&logo=github"></a>
+  <img src="https://komarev.com/ghpvc/?username=diegobrando3&color=blue&style=flat-square" alt="Profile Views">
+  
 </p>
 
 ---
