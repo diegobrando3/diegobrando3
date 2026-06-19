@@ -8,16 +8,15 @@
   <a href="mailto:enes80330@gmail.com"><img src="https://img.shields.io/badge/Email-enes80330@gmail.com-blue?style=flat-square&logo=gmail"></a>
   <a href="https://github.com/diegobrando3"><img src="https://img.shields.io/badge/GitHub-@diegobrando3-black?style=flat-square&logo=github"></a>
   <img src="https://komarev.com/ghpvc/?username=diegobrando3&color=blue&style=flat-square" alt="Profile Views">
-  
 </p>
 
 ---
 
 ## 🚀 About Me
-Merhaba! Yazılım dünyasında sürekli gelişime odaklanan, Python ile CLI araçları geliştirmeyi seven ve Linux sistemlerin gücüne inanan bir geliştiriciyim. Öğrenme sürecimi sadece teoride bırakmayıp, bunları gerçek projelerle pratiğe döküyorum.
+Hello! I am a passionate developer focused on continuous learning, building CLI tools with Python, and leveraging the power of Linux systems. I believe in transforming theoretical knowledge into practice by developing real-world projects.
 
-### 🎯 Şu Anki Odak Noktam
-* **TypeScript Öğreniyorum:** Daha ölçeklenebilir ve tip güvenli uygulamalar geliştirmek için **TypeScript** dünyasına adım attım. Yakında projelerimi TypeScript ile güçlendirmeye başlayacağım! 📈
+### 🎯 Current Focus
+* **Learning TypeScript:** I have stepped into the world of **TypeScript** to build scalable and type-safe applications. Soon, I will be powering up my future projects with TypeScript! 📈
 
 ---
 
@@ -25,24 +24,24 @@ Merhaba! Yazılım dünyasında sürekli gelişime odaklanan, Python ile CLI ara
 
 ### Languages
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" />
 </p>
 
 ### Tools & Platforms
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" alt="VS Code" />
 </p>
 
 ---
 
 ## 📌 Featured Projects
 
-* **[CLI Todo Manager](https://github.com/diegobrando3/todo)**: Terminal tabanlı, JSON veri depolama sistemine sahip iş takip uygulaması.
-* **[System Info Dashboard](https://github.com/diegobrando3/dashboard)**: Sistem kaynaklarını (CPU/RAM) gerçek zamanlı izleyen Python yardımcı aracı.
-* **[Text Editor](https://github.com/diegobrando3/texteditor)**: Şu anda geliştirme aşamasında, temp dosyası kullanarak yazı yazmanı sğlayan araç. Kendine özel uzantısı var.
+* **[CLI Todo Manager](https://github.com/diegobrando3/todo)**: A terminal-based task management application with a JSON data storage system.
+* **[System Info Dashboard](https://github.com/diegobrando3/dashboard)**: A Python utility tool that monitors system resources (CPU/RAM) in real time.
+* **[Text Editor](https://github.com/diegobrando3/texteditor)**: *Currently in development.* A custom text editor utilizing temp files for writing, featuring its own unique file extension.
 
 ---
 
