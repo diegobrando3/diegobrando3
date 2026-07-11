@@ -25,7 +25,6 @@ Hello! I am a passionate developer focused on continuous learning, building CLI 
 ### Languages
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" />
 </p>
 
 ### Tools & Platforms
