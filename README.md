@@ -15,8 +15,7 @@
 ## 🚀 About Me
 Hello! I am a passionate developer focused on continuous learning, building CLI tools with Python, and leveraging the power of Linux systems. I believe in transforming theoretical knowledge into practice by developing real-world projects.
 
-### 🎯 Current Focus
-* **Learning TypeScript:** I have stepped into the world of **TypeScript** to build scalable and type-safe applications. Soon, I will be powering up my future projects with TypeScript! 📈
+
 
 ---
 
