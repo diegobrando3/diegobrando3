@@ -37,7 +37,7 @@ Hello! I am a passionate developer focused on continuous learning, building CLI 
 
 ## 📌 Featured Projects
 
-* **[CLI Todo Manager](https://github.com/diegobrando3/todo)**: A terminal-based task management application with a JSON data storage system.
+* **[Bash-like Shell](https://github.com/diegobrando3/LKShell)**: A Bash-like shell for myself
 * **[System Info Dashboard](https://github.com/diegobrando3/dashboard)**: A Python utility tool that monitors system resources (CPU/RAM) in real time.
 * **[Text Editor](https://github.com/diegobrando3/texteditor)**: *Currently in development.* A custom text editor utilizing temp files for writing, featuring its own unique file extension.
 
