@@ -1,21 +1,21 @@
 <h1 align="center">Hi, I'm Enes 👋</h1>
-
 <p align="center">
-  <em>💻 Python Developer | 🐧 Linux Enthusiast | 🚀 Aspiring Software Engineer</em>
+  <em>💻 Python Learner | 🐧 Linux Enthusiast | 🚀 Building CLI Tools</em>
 </p>
 
 <p align="center">
   <a href="mailto:enes80330@gmail.com"><img src="https://img.shields.io/badge/Email-enes80330@gmail.com-blue?style=flat-square&logo=gmail"></a>
   <a href="https://github.com/diegobrando3"><img src="https://img.shields.io/badge/GitHub-@diegobrando3-black?style=flat-square&logo=github"></a>
+  <a href="https://instagram.com/diego__brrando"><img src="https://img.shields.io/badge/Instagram-@diego__brrando-E4405F?style=flat-square&logo=instagram&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Discord-babag.3-5865F2?style=flat-square&logo=discord&logoColor=white">
   <img src="https://komarev.com/ghpvc/?username=diegobrando3&color=blue&style=flat-square" alt="Profile Views">
 </p>
 
 ---
 
 ## 🚀 About Me
-Hello! I am a passionate developer focused on continuous learning, building CLI tools with Python, and leveraging the power of Linux systems. I believe in transforming theoretical knowledge into practice by developing real-world projects.
 
-
+Hi! I'm a student who's currently learning **Python** and enjoys building **CLI (command-line) projects**. I'm passionate about the Linux ecosystem and I'm always looking to turn what I learn into small, practical tools.
 
 ---
 
@@ -35,23 +35,25 @@ Hello! I am a passionate developer focused on continuous learning, building CLI 
 
 ---
 
-## 📌 Featured Projects
+## 📌 Featured Project
 
-* **[Bash-like Shell](https://github.com/diegobrando3/LKShell)**: A Bash-like shell for myself
-* **[System Info Dashboard](https://github.com/diegobrando3/dashboard)**: A Python utility tool that monitors system resources (CPU/RAM) in real time.
-* **[Text Editor](https://github.com/diegobrando3/texteditor)**: *Currently in development.* A custom text editor utilizing temp files for writing, featuring its own unique file extension.
+* **[LKShell](https://github.com/diegobrando3/LKShell)** — A Bash-like shell I built for myself, written in Python.
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Profile-Active-success?style=for-the-badge&logo=github" alt="Status" />
-  <img src="https://img.shields.io/badge/Primary_Language-Python-blue?style=for-the-badge&logo=python" alt="Python" />
-  <img src="https://img.shields.io/badge/Environment-Linux-orange?style=for-the-badge&logo=linux" alt="Linux" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=diegobrando3&show_icons=true&theme=tokyonight&hide_border=true" alt="Enes's GitHub Stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=diegobrando3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
 
 <p align="center">
-  <code>while True: learn(); build(); repeat();</code>
+  <code>while learning: code(); build(); repeat();</code>
 </p>
