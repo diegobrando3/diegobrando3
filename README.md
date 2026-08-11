@@ -44,13 +44,10 @@ Hi! I'm a student who's currently learning **Python** and enjoys building **CLI 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=diegobrando3&show_icons=true&theme=tokyonight&hide_border=true" alt="Enes's GitHub Stats" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=diegobrando3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+
 
 ---
 
