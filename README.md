@@ -44,12 +44,10 @@ Hello! I am a passionate developer focused on continuous learning, building CLI 
 ---
 
 ## 📈 GitHub Stats
-## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=diegobrando3&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Profile-Active-success?style=for-the-badge&logo=github" alt="Status" />
+  <img src="https://img.shields.io/badge/Primary_Language-Python-blue?style=for-the-badge&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/Environment-Linux-orange?style=for-the-badge&logo=linux" alt="Linux" />
 </p>
 
 ---
