@@ -1,9 +1,9 @@
-name: Generate Custom GitHub Stats
+name: Generate Live GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Her gün otomatik günceller
+  workflow_dispatch: # İstediğin zaman elle tetikleyebilirsin
 
 jobs:
   build:
@@ -18,28 +18,47 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Generate Stats SVG via Python Script
+      - name: Fetch Stats and Generate SVG
         run: |
           python -c '
-          svg_content = """<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+          import urllib.request
+          import json
+
+          username = "diegobrando3"
+          url = f"https://api.github.com/users/{username}"
+          
+          req = urllib.request.Request(url, headers={"User-Agent": "GitHub-Action"})
+          try:
+              with urllib.request.urlopen(req) as response:
+                  data = json.loads(response.read().decode())
+                  public_repos = data.get("public_repos", 0)
+                  followers = data.get("followers", 0)
+                  following = data.get("following", 0)
+          except Exception:
+              public_repos, followers, following = 0, 0, 0
+
+          svg_content = f"""<svg width="450" height="180" viewBox="0 0 450 180" xmlns="http://www.w3.org/2000/svg">
             <style>
-              .bg { fill: #0d1117; rx: 10px; }
-              .text { fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; }
-              .title { fill: #58a6ff; font-weight: bold; font-size: 16px; }
+              .bg {{ fill: #0d1117; rx: 12px; }}
+              .title {{ fill: #58a6ff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: bold; font-size: 16px; }}
+              .text {{ fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; }}
+              .accent {{ fill: #3fb950; font-weight: bold; }}
             </style>
-            <rect width="400" height="150" class="bg"/>
-            <text x="30" y="40" class="title">⚡ Enes\'s GitHub Overview</text>
-            <text x="30" y="75" class="text">🚀 Status: Building CLI tools &amp; Python apps</text>
-            <text x="30" y="105" class="text">🐧 Environment: Linux &amp; Arch/Hyprland</text>
+            <rect width="450" height="180" class="bg" stroke="#30363d" stroke-width="1"/>
+            <text x="30" y="40" class="title">📊 Enes\'s GitHub Overview</text>
+            <text x="30" y="80" class="text">📁 Public Repositories: <tspan class="accent">{public_repos}</tspan></text>
+            <text x="30" y="115" class="text">👥 Followers: <tspan class="accent">{followers}</tspan></text>
+            <text x="30" y="150" class="text">🚀 Status: Active Python &amp; Linux Developer</text>
           </svg>"""
+
           with open("stats.svg", "w", encoding="utf-8") as f:
               f.write(svg_content)
           '
 
-      - name: Commit and push
+      - name: Commit and push stats
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add stats.svg
-          git commit -m "chore: update local custom stats svg" || exit 0
+          git commit -m "chore: update dynamic github stats" || exit 0
           git push
