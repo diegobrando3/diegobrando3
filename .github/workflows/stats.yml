@@ -1,28 +1,45 @@
-name: Update GitHub Stats
+name: Generate Custom GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Her gün gece yarısı otomatik çalışır
-  workflow_dispatch: # İstersen GitHub panelinden tek tıkla manuel tetikleyebilirsin
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Botun repona dosya kaydedebilmesi için yetki verir
+      contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Generate Stats SVG
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Generate Stats SVG via Python Script
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=diegobrando3&show_icons=true&theme=dark&hide_border=true" > stats.svg
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=dark&hide_border=true" > top-langs.svg
+          python -c '
+          svg_content = """<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .bg { fill: #0d1117; rx: 10px; }
+              .text { fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; }
+              .title { fill: #58a6ff; font-weight: bold; font-size: 16px; }
+            </style>
+            <rect width="400" height="150" class="bg"/>
+            <text x="30" y="40" class="title">⚡ Enes\'s GitHub Overview</text>
+            <text x="30" y="75" class="text">🚀 Status: Building CLI tools &amp; Python apps</text>
+            <text x="30" y="105" class="text">🐧 Environment: Linux &amp; Arch/Hyprland</text>
+          </svg>"""
+          with open("stats.svg", "w", encoding="utf-8") as f:
+              f.write(svg_content)
+          '
 
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats.svg top-langs.svg
-          git commit -m "chore: update generated stats svgs" || exit 0
+          git add stats.svg
+          git commit -m "chore: update local custom stats svg" || exit 0
           git push
