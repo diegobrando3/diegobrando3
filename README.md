@@ -45,8 +45,8 @@ Hello! I am a passionate developer focused on continuous learning, building CLI 
 
 ## 📈 GitHub Stats
 <p align="center">
-  ![Enes's GitHub Stats](stats.svg)
-  ![Top Languages](top-langs.svg)
+  <img src="https://raw.githubusercontent.com/diegobrando3/diegobrando3/main/stats.svg" alt="GitHub Stats">
+  <img src="https://raw.githubusercontent.com/diegobrando3/diegobrando3/main/top-langs.svg" alt="Top Languages">
 </p>
 
 ---
