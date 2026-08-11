@@ -45,8 +45,8 @@ Hello! I am a passionate developer focused on continuous learning, building CLI 
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=diegobrando3&show_icons=true&theme=tokyonight&count_private=true" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=diegobrando3&layout=compact&theme=tokyonight" />
+  ![Enes's GitHub Stats](stats.svg)
+  ![Top Languages](top-langs.svg)
 </p>
 
 ---
